@@ -1,0 +1,105 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% load static %}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home Page</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <link rel="stylesheet"  type="text/css" href="{% static 'style.css'%} "  />
+<link rel="stylesheet"   type="text/css" href="{% static 'coin-slider.css'%}" />
+
+<script type="text/javascript" src="{% static 'cufon-yui.js'%} "></script>
+<script type="text/javascript" src="{% static 'cufon-aller.js'%}"></script>
+<script type="text/javascript" src="{% static 'jquery-1.4.2.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'script.js'%}"></script>
+<script type="text/javascript" src="{% static 'coin-slider.min.js'%}"></script>
+<style type="text/css">
+<!--
+.style5 {
+	font-size: 24px;
+	color: #FF0000;
+}
+.style12 {font-weight: bold}
+.style13 {font-size: 24px; color: #FF0000; font-weight: bold; }
+.style16 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="menu_nav">
+        <p>&nbsp;</p>
+      </div>
+      <div class="mainbar">
+        <h1 align="center"><a href="index.html"><span class="content style5">Optimizing Numerical Weather Prediction Model Performance Using Machine Learning Techniques</span></a></h1>
+
+
+
+        <div class="tab-content tab-space">
+            <div class="tab-pane active" id="preview-alerts">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script><link href="https://unpkg.com/soft-ui-design-system@1.0.1/assets/css/soft-design-system.min.css" rel="stylesheet" /><div class="container py-5">
+  <div class="row">
+    <div class="alert alert-primary text-white font-weight-bold" role="alert">
+     <p align="center"><span class="active"><span class="style12"><a href="{% url 'index' %}">Home|  </a><a href="{% url 'login' %}">Remote User </a>|<a href="{% url 'serviceproviderlogin' %}"> Service Provider </a></span></span></p>
+    </div>
+    <div>
+</div>
+
+
+
+        <img src="{% static 'Banner.jpg'%}" width="1297" height="312" alt="" class="fl" />      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2 align="center" class="style13">Scientific application, GloSea6, machine learning, I/O optimization, profiling.</h2>
+          <div class="img">
+            <div align="center"><img src="{% static 'img1.jpg'%}" width="630" height="221" alt="" class="fl" /></div>
+          </div>
+          <div class="post_content">
+            <p align="center" class="style16">Weather forecasting primarily uses numerical weather prediction models that use weather observation data, including temperature and humidity, to predict future weather. The Korea Meteorological Administration (KMA) has adopted the GloSea6 numerical weather prediction model from the UK for weather forecasting. Besides utilizing these models for real-time weather forecasts, supercomputers are essential for running them for research purposes. However, owing to the limited supercomputer resources, many researchers have faced difficulties running the models. To address this issue, the KMA has developed a low-resolution model called Low GloSea6, which can be run on small and medium-sized servers in research institutions, but Low GloSea6 still uses numerous computer resources, especially in the I/O load. As I/O load can cause performance degradation for models with high data I/O, model I/O optimization is essential, but trial-and-error optimization by users is inefficient. Therefore, this study presents a machine learning-based approach to optimize the hardware and software parameters of the Low GloSea6 research environment. The proposed method comprised two steps. First, performance data were collected using profiling tools to obtain hardware platform parameters and Low GloSea6 internal parameters under various settings. Second, a machine learning model was trained using the collected data to determine the optimal hardware platform parameters and Low GloSea6 internal parameters for new research environments. The machine-learning model successfully predicted the optimal parameter combinations in different research environments, exhibiting a high degree of accuracy compared to the actual parameter combinations. In particular, the predicted model execution time based on the parameter combination showed a significant outcome with an error rate of only 16% compared to the actual execution time. Overall, this optimization method holds the potential to improve the performance of other high-performance computing scientific applications..</p>
+          </div>
+
+        <div class="tab-content tab-space">
+            <div class="tab-pane active" id="preview-alerts">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script><link href="https://unpkg.com/soft-ui-design-system@1.0.1/assets/css/soft-design-system.min.css" rel="stylesheet" /><div class="container py-5">
+  <div class="row">
+    <div class="alert alert-primary text-white font-weight-bold" role="alert">
+     <p align="center"><span class="active"><span class="style12"><a href="{% url 'login' %}">Home|  </a><a href="{% url 'login' %}">Remote User </a>|<a href="{% url 'serviceproviderlogin' %}"> Service Provider </a></span></span></p>
+    </div>
+    <div>
+</div>
+          <div class="clr"></div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="searchform"></div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg"></div>
+  <div class="footer"></div>
+</div>
+<div align=center></div>
+</body>
+</html>
